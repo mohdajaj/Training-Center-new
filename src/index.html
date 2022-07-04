@@ -16,6 +16,7 @@
     function resize()
     {
       var clientHeight = document.getElementById('mainDiv').scrollHeight;
+	  alert('hello');
       parent.postMessage(
 				{ 
 					user_age:    clientHeight,
@@ -33,7 +34,7 @@
 			// Send the user's age and height to the parent window--sending the
 			// data as an object that the parent can receive and parse.
 			console.log("Sending data to http://localhost:4200/");
-      var clientHeight = document.getElementById('mainDiv').scrollHeight + 70;
+      var clientHeight = document.getElementById('mainDiv').scrollHeight;
 			parent.postMessage(
 				{ 
 					user_age:    clientHeight,
