@@ -1,0 +1,336 @@
+<!--Header section starts-->
+<header class="sticky-top">
+  <div class="containerr" id="mainContainer">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <!--Logo container starts-->
+        <div class="logo_container">
+          <a class="navbar-brand me-5" href="#">Training Center</a>
+        </div>
+        <!--Logo container ends-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Collapse Navbar starts-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=""
+                >Dashboard</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Meetings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Leads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">CRM</a>
+            </li>
+            <li class="nav-item">
+              <a
+                routerLink="/task"
+                routerLinkActive="active"
+                class="nav-link"
+                href=""
+                >Task</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Leaderboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Target & Achievement</a>
+            </li>
+          </ul>
+
+          <div class="calendar_icon">
+            <a href="#"><img src="../../../assets/images/calender.png" /></a>
+          </div>
+
+          <div class="profile_dropdown">
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="../../../assets/images/drop_user.png" />
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-lg-end"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--Collapse Navbar ends-->
+      </div>
+    </nav>
+  </div>
+</header>
+<!--Header section ends-->
+
+<section class="list_page">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <table class="table" style="border: 1px solid">
+            <thead>
+              <tr>
+                <th scope="col">S.No.</th>
+                <th scope="col">City Number (City)</th>
+                <th scope="col">City Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>City1</td>
+                <td>Delhi</td>
+              </tr>
+            </tbody>
+          </table> -->
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+             
+                <!-- <th>Action</th> -->
+                <!-- <th>Email</th>
+                <th>Street</th>
+                <th>Suite</th>
+                <th>City</th>
+                <th>Zip Code</th> -->
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                <th scope="row">{{user.id}}</th>
+                <td>{{user.email}}</td>
+                <td>{{user.body}}</td>
+                <td>{{user.mobile}}</td>
+              </tr> 
+            </tbody>
+           
+          </table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
