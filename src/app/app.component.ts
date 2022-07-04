@@ -18,7 +18,7 @@ export class AppComponent {
   }
 
   user() {
-    return this.http.get('https://jsonplaceholder.typicode.com/comments');
+    return this.http.get('https://jsonplaceholder.typicode.com/posts');
   }
   ngOnChanges() {
     console.log('ngOnChanges');
