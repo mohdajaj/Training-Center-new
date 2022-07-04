@@ -1,8 +1,8 @@
 
-// window.addEventListener("DOMNodeInserted", (event) => {
-//     // alert("DOMNodeInserted");
-//     //resize();
-//   });
+window.addEventListener("DOMNodeInserted", (event) => {
+    // alert("DOMNodeInserted");
+    resize();
+  });
   
   
 //   function resize() {
